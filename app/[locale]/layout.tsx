@@ -9,22 +9,21 @@ export const metadata: Metadata = {
   description: "Welcome to my portfolio site!",
 };
 
-export const sourceCodePro = Source_Code_Pro({
+const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
   weight: ["400", "200"],
   variable: "--font-source-code-pro",
   display: "swap",
 });
 
-export default async function LocaleLayout({
-  children,
-  params,
-}: {
+interface LayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
-}) {
-  // Await params if needed (for future-proofing)
-  const { locale } = params;
+  params: Promise<{ locale: string }>;
+}
+
+export default async function LocaleLayout(props: LayoutProps) {
+  const { children, params } = props;
+  const { locale } = await params;
 
   return (
     <html lang={locale} className={sourceCodePro.className}>

@@ -6,8 +6,8 @@ const COLOR_VARS = {
   foreground: "--foreground",
 };
 const DEFAULTS = {
-  background: "#ffffff",
-  foreground: "#171717",
+  background: "black",
+  foreground: "white",
 };
 
 function setCSSVar(name: string, value: string) {
