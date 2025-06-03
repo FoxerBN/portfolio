@@ -1,7 +1,12 @@
+'use client';
+import { useTranslation } from "../hooks/useTranslation";
+
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full py-4 px-6 text-center text-sm mt-auto">
-      © {new Date().getFullYear()} Richard Tekula. All rights reserved.
+      © {new Date().getFullYear()} {t('footer')}
     </footer>
   );
 }
