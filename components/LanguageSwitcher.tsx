@@ -41,7 +41,7 @@ export default function LanguageSwitcher() {
       <span
         className={`
           absolute left-1/2 top-1/2 -translate-x-1/2
-          text-white font-semibold text-sm pointer-events-none
+          font-semibold text-sm pointer-events-none
           transition-all duration-500 ease-in-out
           ${isSwitching
             ? "opacity-0 -translate-y-8"
@@ -53,7 +53,7 @@ export default function LanguageSwitcher() {
       <span
         className={`
           absolute left-1/2 top-1/2 -translate-x-1/2
-          text-white font-semibold text-sm pointer-events-none
+           font-semibold text-sm pointer-events-none
           transition-all duration-500 ease-in-out
           ${isSwitching
             ? "opacity-100 -translate-y-1/2"
