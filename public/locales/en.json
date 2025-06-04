@@ -1,4 +1,35 @@
 {
-    "footer": "Richard Tekula. All rights reserved.",
-    "fruit": "Apple"
+  "footer": "Richard Tekula - Portfolio",
+  "info": {
+    "title": "## Info",
+    "age": "Age: 27",
+    "location": "Location: Bánovce nad Bebravou",
+    "programming": "Programming since February 2024 (~16 months)",
+    "english": "English Level: B2",
+    "focus": "Focus: Backend Development & API, Security"
+  },
+  "tools": {
+    "title": "## Tools I Use",
+    "projectControl": "Project Control: Git, GitHub",
+    "apiTesting": "API Testing: Swagger, Postman, Insomnia",
+    "ide": "IDEs: Visual Studio Code, IntelliJ IDEA",
+    "databases": "Databases: MySQL, PostgreSQL, MongoDB, SQLite"
+  },
+  "skills": {
+    "title": "## Skills",
+    "frontend": "HTML, CSS, SCSS, TailwindCSS",
+    "backend": "FastAPI, ExpressJS, Spring Boot",
+    "languages": "JavaScript (Intermediate), TypeScript (Basic), Python (Basic), Java (Basic)",
+    "frameworks": "React, Next.js, React Native, Node.js",
+    "testing": "Testing with Jest",
+    "notes": "Working on fullstack apps using React (App Router) + FastAPI"
+  },
+  "interests": {
+    "title": "## Interests",
+    "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
+    "focus": "Security, Authentication, Real-time Applications, File Handling, Testing",
+    "ai": "Implementing AI into real-world projects",
+    "growth": "Continuously learning new things about programming",
+    "problemSolving": "Solving problems in my own projects and exploring various solutions"
+  }
 }

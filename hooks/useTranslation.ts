@@ -7,9 +7,18 @@ const translations: Record<string, any> = { en, sk };
 
 export function useTranslation() {
   const { locale } = useParams() as { locale: string };
+  
   const t = (key: string) => {
     const lang = translations[locale] ? locale : "en";
-    return translations[lang][key] || key;
+    const keys = key.split('.');
+    let value = translations[lang];
+    
+    for (const k of keys) {
+      value = value?.[k];
+    }
+    
+    return value || key;
   };
+  
   return { t, locale };
 }

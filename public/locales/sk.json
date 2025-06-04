@@ -1,4 +1,35 @@
 {
-    "footer": "Richard Tekula. Všetky práva vyhradené.",
-    "fruit": "Jablko"
+  "footer": "Richard Tekula - Portfólio",
+  "info": {
+    "title": "## Info",
+    "age": "Vek: 27",
+    "location": "Miesto: Bánovce nad Bebravou",
+    "programming": "Programujem od februára 2024 (~16 mesiacov)",
+    "english": "Úroveň angličtiny: B2",
+    "focus": "Zameranie: Backend Development & API, Security"
+  },
+  "tools": {
+    "title": "## Nástroje, ktoré používam",
+    "projectControl": "Správa projektov: Git, GitHub",
+    "apiTesting": "Testovanie API: Swagger, Postman, Insomnia",
+    "ide": "Vývojové prostredia: Visual Studio Code, IntelliJ IDEA",
+    "databases": "Databázy: MySQL, PostgreSQL, MongoDB, SQLite"
+  },
+  "skills": {
+    "title": "## Zručnosti",
+    "frontend": "HTML, CSS, SCSS, TailwindCSS",
+    "backend": "FastAPI, ExpressJS, Spring Boot",
+    "languages": "JavaScript (Pokročilý), TypeScript (Základy), Python (Základy), Java (Základy)",
+    "frameworks": "React, Next.js, React Native, Node.js",
+    "testing": "Testovanie s Jest",
+    "notes": "Pracujem na fullstack aplikáciách používajúc React (App Router) + FastAPI"
+  },
+  "interests": {
+    "title": "## Záujmy",
+    "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
+    "focus": "Bezpečnosť, Autentifikácia, Real-time aplikácie, Práca so súbormi, Testovanie",
+    "ai": "Implementácia AI do reálnych projektov",
+    "growth": "Neustále sa učím nové veci o programovaní",
+    "problemSolving": "Riešenie problémov vo vlastných projektoch a skúmanie rôznych riešení"
+  }
 }

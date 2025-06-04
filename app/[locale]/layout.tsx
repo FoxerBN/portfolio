@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
-  weight: ["400", "200"],
+  weight: ["500", "200"],
   variable: "--font-source-code-pro",
   display: "swap",
 });
@@ -23,7 +23,6 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  // Await params if needed (for future-proofing)
   const { locale } = params;
 
   return (
