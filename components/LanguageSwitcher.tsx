@@ -37,7 +37,7 @@ export default function LanguageSwitcher() {
       disabled={isSwitching}
       style={{ minWidth: 48, minHeight: 36 }}
     >
-      {/* Current locale slides up and fades out */}
+
       <span
         className={`
           absolute left-1/2 top-1/2 -translate-x-1/2

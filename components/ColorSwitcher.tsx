@@ -1,12 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 export default function ColorSwitcher() {
   const [background, setBackground] = useState("#ffffff");
   const [foreground, setForeground] = useState("#171717");
   const [open, setOpen] = useState(false);
 
-  // Load saved colors when component mounts
   useEffect(() => {
     const savedBg = localStorage.getItem("background") || "#ffffff";
     const savedFg = localStorage.getItem("foreground") || "#171717";
