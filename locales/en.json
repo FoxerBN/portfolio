@@ -30,5 +30,12 @@
     "ai": "Implementing AI into real-world projects",
     "growth": "Quickly learning new technologies and concepts in programming",
     "problemSolving": "Solving problems in my own projects and exploring various solutions"
+  },
+  "projects": {
+    "title": "## Projects",
+    "backex": {
+      "name": "back-ex (starter backend)",
+      "desc": "Modular starter for Express.js projects — choose JS/TS, MongoDB, Cloudinary, and more as needed. Includes JWT auth, validation, and clean project structure."
+    }
   }
 }

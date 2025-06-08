@@ -34,7 +34,7 @@ export default function ColorSwitcher() {
 
   return (
     <>
-      <button onClick={() => setOpen(true)} className="p-3 rounded-full">
+      <button onClick={() => setOpen(true)} className="p-1 rounded-full">
         <FontAwesomeIcon className="text-2xl" icon={faPalette} />
       </button>
 

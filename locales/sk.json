@@ -30,5 +30,13 @@
     "ai": "Implementácia AI do reálnych projektov",
     "growth": "Rýchlo sa učím nové technológie a koncepty v programovaní",
     "problemSolving": "Riešenie problémov vo vlastných projektoch a skúmanie rôznych riešení"
+  },
+  "projects": {
+    "title": "## Projekty",
+    "backex": {
+      "name": "back-ex (štartovací backend)",
+      "desc": "Modulárny starter pre Express.js projekty, kde si vieš zvoliť JS/TS, MongoDB, Cloudinary a ďalšie časti podľa potreby. Obsahuje JWT autentifikáciu, validáciu a čistú štruktúru."
+    }
   }
+
 }
