@@ -1,4 +1,3 @@
-// types/i18n.d.ts
 import type { Locale } from '@/i18n';
 
 declare module 'next-intl' {

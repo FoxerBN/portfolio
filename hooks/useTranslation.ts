@@ -1,7 +1,8 @@
 "use client";
 import { useParams } from "next/navigation";
-import en from "../public/locales/en.json";
-import sk from "../public/locales/sk.json";
+import en from "@/locales/en.json";
+import sk from "@/locales/sk.json";
+
 
 const translations: Record<string, any> = { en, sk };
 

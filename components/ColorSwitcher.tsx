@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPalette } from "@fortawesome/free-solid-svg-icons";
 
 export default function ColorSwitcher() {
   const [background, setBackground] = useState("#ffffff");
@@ -8,18 +10,16 @@ export default function ColorSwitcher() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const savedBg = localStorage.getItem("background") || "#ffffff";
-    const savedFg = localStorage.getItem("foreground") || "#171717";
+    const savedBg = localStorage.getItem("background") || "#000000;";
+    const savedFg = localStorage.getItem("foreground") || "#adab0a";
 
     setBackground(savedBg);
     setForeground(savedFg);
 
-    // Apply colors to CSS variables
     document.documentElement.style.setProperty("--background", savedBg);
     document.documentElement.style.setProperty("--foreground", savedFg);
   }, []);
 
-  // Update color and save to localStorage
   const updateColor = (type: "background" | "foreground", value: string) => {
     if (type === "background") {
       setBackground(value);
@@ -34,20 +34,14 @@ export default function ColorSwitcher() {
 
   return (
     <>
-      {/* Trigger button */}
       <button onClick={() => setOpen(true)} className="p-3 rounded-full">
-        <Image
-          src="/images/palette.png"
-          alt="Color Picker"
-          width={44}
-          height={44}
-        />
+        <FontAwesomeIcon className="text-2xl" icon={faPalette} />
       </button>
 
       {/* Modal */}
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-          <div className="bg-white dark:bg-neutral-900 p-6 rounded shadow-lg">
+          <div className="bg-neutral-800  p-6 rounded shadow-lg">
             <h2 className="font-semibold mb-4">Customize Colors</h2>
 
             <div className="space-y-4">

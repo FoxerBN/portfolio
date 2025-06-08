@@ -19,7 +19,7 @@ export default function LanguageSwitcher() {
     setIsSwitching(true);
     setTimeout(() => {
       router.push(newPath);
-    }, 300); // match the animation duration
+    }, 300);
   };
 
   return (

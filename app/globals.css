@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #adab0a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,8 +18,35 @@ body {
   max-width: 100%;
   min-height: 100dvh;
   overflow-x: hidden;
-  font-size: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);}
+  font-size: clamp(0.75rem, 0.4rem + 1vw, 1.25rem);}
 
 h2 {
   font-size: clamp(1.25rem, 1rem + 2vw, 2rem);
-}  
+}
+
+.shiny-text {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    120deg,
+    var(--foreground) 0%,
+    #fffbe6 40%,
+    var(--foreground) 60%
+  );
+  background-size: 200% 100%;
+  background-position: -100% 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: shiny-text-clip 4.5s infinite;
+}
+
+@keyframes shiny-text-clip {
+  0% {
+    background-position: +100% -20%;
+  }
+  100% {
+    background-position: -100% -20%;
+  }
+}

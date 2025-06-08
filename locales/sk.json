@@ -5,8 +5,8 @@
     "age": "Vek: 27",
     "location": "Miesto: Bánovce nad Bebravou",
     "programming": "Programujem od februára 2024 (~16 mesiacov)",
-    "english": "Úroveň angličtiny: B2",
-    "focus": "Zameranie: Backend Development & API, Security"
+    "english": "Úroveň angličtiny: B1~B2",
+    "focus": "Zameranie: Backend Development, API & Security"
   },
   "tools": {
     "title": "## Nástroje, ktoré používam",
@@ -18,18 +18,17 @@
   "skills": {
     "title": "## Zručnosti",
     "frontend": "HTML, CSS, SCSS, TailwindCSS",
-    "backend": "FastAPI, ExpressJS, Spring Boot",
+    "backend": "ExpressJS, Spring Boot, FastAPI",
     "languages": "JavaScript (Pokročilý), TypeScript (Základy), Python (Základy), Java (Základy)",
-    "frameworks": "React, Next.js, React Native, Node.js",
-    "testing": "Testovanie s Jest",
-    "notes": "Pracujem na fullstack aplikáciách používajúc React (App Router) + FastAPI"
+    "frameworks": "React, Next.js, React Native, NodeJS",
+    "testing": "Testovanie s Jest, Supertest, Junit"
   },
   "interests": {
     "title": "## Záujmy",
     "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
-    "focus": "Bezpečnosť, Autentifikácia, Real-time aplikácie, Práca so súbormi, Testovanie",
+    "focus": "Bezpečnosť, Autentifikácia,Databázy, Real-time aplikácie, Práca so súbormi, Testovanie",
     "ai": "Implementácia AI do reálnych projektov",
-    "growth": "Neustále sa učím nové veci o programovaní",
+    "growth": "Rýchlo sa učím nové technológie a koncepty v programovaní",
     "problemSolving": "Riešenie problémov vo vlastných projektoch a skúmanie rôznych riešení"
   }
 }
