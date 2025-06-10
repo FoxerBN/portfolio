@@ -6,7 +6,8 @@
     "location": "Location: Bánovce nad Bebravou",
     "programming": "Programming since February 2024 (~16 months)",
     "english": "English Level: B1~B2",
-    "focus": "Focus: Backend Development & API, Security"
+    "focus": "Focus: Backend Development & API, Security",
+    "hobby": "Hobbies: Programming, Gaming, Books, 3DPrinting"
   },
   "tools": {
     "title": "## Tools I Use",
@@ -40,6 +41,10 @@
     "onepas": {
       "name": "Onepas (Password Manager App)",
       "desc": "A secure password manager built with React Native and Expo. It features user registration, login, fingerprint unlocking, and a personal dashboard. Users can store account passwords with customizable icons (e.g. Facebook) and use a custom decryption password to reveal stored passwords."
-    }
+    },
+    "chatApp": {
+    "name": "Live Support Chat",
+    "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic."
+  }
   }
 }
