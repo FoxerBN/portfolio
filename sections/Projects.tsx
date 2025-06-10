@@ -11,7 +11,7 @@ export default function Projects() {
   // Define photos for each project
   const galleries: Record<string, string[]> = {
     project1: ["photo1.png", "photo2.png", "photo3.png", "photo4.png", "photo5.png"],
-    project2: ["photo1.png", "photo2.png"],
+    project2: ["photo1.jpeg", "photo2.jpeg", "photo3.jpeg", "photo4.jpeg", "photo5.jpeg", "photo6.jpeg", "photo7.jpeg", "photo8.jpeg", "photo9.jpeg"],
     project3: ["photo1.png", "photo2.png"],
   };
 
@@ -46,14 +46,14 @@ export default function Projects() {
       <div className="border-l-2 pl-4 mb-6">
         <ul className="mb-6">
           <li>
-            <Link href="https://github.com/FoxerBN/back-ex" target="_blank">
+            <Link href="https://github.com/FoxerBN/onepass" target="_blank">
               <strong className="underline text-sm">
                 {"> "}
-                {t("projects.backex.name")}
+                {t("projects.onepas.name")}
               </strong>
             </Link>
             <br />
-            {t("projects.backex.desc")}
+            {t("projects.onepas.desc")}
             <a
               href="#"
               className="underline text-blue-600 cursor-pointer ml-2"
