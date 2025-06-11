@@ -7,6 +7,11 @@ export default function Footer() {
   return (
     <footer className="w-full py-4 px-6 text-center text-sm mt-auto">
       © {new Date().getFullYear()} {t('footer')}
+      <span>
+        
+        <a href="/Richard-Tekula-CV.pdf" download target="_blank" rel="noopener noreferrer">{"->Download CV-<"}
+        </a>
+      </span>
     </footer>
   );
 }
