@@ -6,7 +6,8 @@
     "location": "Miesto: Bánovce nad Bebravou",
     "programming": "Programujem od februára 2024 (~16 mesiacov)",
     "english": "Úroveň angličtiny: B1~B2",
-    "focus": "Zameranie: Backend Development, API & Security"
+    "focus": "Zameranie: Backend Development, API & Security",
+    "hobby": "Hobby: Programovanie, Hry, Knihy, 3DPrint"
   },
   "tools": {
     "title": "## Nástroje, ktoré používam",
@@ -40,6 +41,10 @@
     "onepas": {
       "name": "Onepas (Správca hesiel)",
       "desc": "Bezpečný správca hesiel vytvorený v React Native a Expo. Obsahuje registráciu, prihlásenie, odomykanie odtlačkom prsta a osobný dashboard. Používateľ si môže ukladať heslá k rôznym účtom s možnosťou výberu ikony (napr. Facebook) a na zobrazenie hesla musí zadať vlastné dešifrovacie heslo."
-    }
+    },
+    "chatApp": {
+    "name": "Live Support Chat",
+    "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti."
+  }
   }
 }

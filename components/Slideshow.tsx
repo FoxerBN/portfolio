@@ -3,7 +3,7 @@ import Image from "next/image";
 
 type SlideshowProps = {
   photos: string[];
-  folder: string; // <-- add this
+  folder: string;
   open: boolean;
   onClose: () => void;
 };
