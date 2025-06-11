@@ -14,6 +14,7 @@ export default function Info() {
         <li>{">"} {t('info.programming')}</li>
         <li>{">"} {t('info.english')}</li>
         <li>{">"} {t('info.focus')}</li>
+        <li>{">"} {t('info.hobby')}</li>
       </ul>
     </>
   );

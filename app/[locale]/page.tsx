@@ -5,6 +5,14 @@ import Projects from "@/sections/Projects";
 import Skills from "@/sections/Skills";
 import Tools from "@/sections/Tools";
 
+export const generateStaticParams = () => {
+  return [
+    { locale: 'en' },
+    { locale: 'sk' },
+  ];
+};
+
+
 export default function HomePage() {
   return (
     <div>

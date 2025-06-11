@@ -18,10 +18,11 @@ body {
   max-width: 100%;
   min-height: 100dvh;
   overflow-x: hidden;
-  font-size: clamp(0.75rem, 0.4rem + 1vw, 1.25rem);}
+  font-size: clamp(0.95rem, 0.7rem + 0.8vw, 1.15rem);
+}
 
 h2 {
-  font-size: clamp(1.25rem, 1rem + 2vw, 2rem);
+  font-size: clamp(1.1rem, 0.9rem + 1.2vw, 1.7rem);
 }
 
 .shiny-text {
@@ -39,6 +40,28 @@ h2 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  animation: shiny-text-clip 4.5s infinite;
+}
+
+.shiny-reveal {
+  position: relative;
+  display: inline-block;
+  color: var(--background);
+  background: linear-gradient(
+    120deg,
+    var(--background) 0%,
+    var(--background) 35%,
+    #fffbe6 50%,
+    var(--foreground) 52%,
+    var(--background) 65%,
+    var(--background) 100%
+  );
+  background-size: 200% 100%;
+  background-position: -100% 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   animation: shiny-text-clip 4.5s infinite;
 }
 
