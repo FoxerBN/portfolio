@@ -45,6 +45,10 @@
     "chatApp": {
     "name": "Live Support Chat",
     "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti."
+  },
+  "school": {
+    "name": "School Management API",
+    "desc": "RESTful API na správu používateľov a študentov v školskom systéme. Postavené na Node.js, Express.js a PostgreSQL. Obsahuje JWT autentifikáciu, CRUD pre študentov a používateľov, validáciu vstupov cez Zod a vlastný frontend na testovanie API. Nasadené na Railway."
   }
   }
 }

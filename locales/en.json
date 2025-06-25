@@ -45,6 +45,10 @@
     "chatApp": {
     "name": "Live Support Chat",
     "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic."
+  },
+    "school": {
+    "name": "School Management API",
+    "desc": "A RESTful API for managing users and students in a school system. Built with Node.js, Express.js, and PostgreSQL. Features JWT authentication, CRUD for students and users, input validation with Zod, and a custom frontend API tester. Hosted on Railway."
   }
   }
 }
