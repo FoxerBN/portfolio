@@ -57,6 +57,13 @@ export default function Projects() {
             >
               {"> "} Gallery {" <"}
             </a>
+            <br />
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://github.com/FoxerBN/onepass/releases/download/1.0.0/onepass.apk"
+            >
+              {"> "}APK Android{" <"}
+            </a>
           </li>
         </ul>
       </div>
@@ -64,7 +71,10 @@ export default function Projects() {
       <div className="border-l-2 pl-4 mb-6">
         <ul className="mb-6">
           <li>
-            <Link href="https://github.com/FoxerBN/socketio-support" target="_blank">
+            <Link
+              href="https://github.com/FoxerBN/socketio-support"
+              target="_blank"
+            >
               <strong className="underline text-sm">
                 {"> "}
                 {t("projects.chatApp.name")}
@@ -89,32 +99,7 @@ export default function Projects() {
       <div className="border-l-2 pl-4 mb-6">
         <ul className="mb-6">
           <li>
-            <Link href="https://github.com/FoxerBN/socketio-support" target="_blank">
-              <strong className="underline text-sm">
-                {"> "}
-                {t("projects.chatApp.name")}
-              </strong>
-            </Link>
-            <br />
-            {t("projects.chatApp.desc")}
-            <a
-              href="#"
-              className="underline font-bold cursor-pointer ml-2"
-              onClick={(e) => {
-                e.preventDefault();
-                setOpenGallery("project3");
-              }}
-            >
-              {"> "} Gallery {" <"}
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div className="border-l-2 pl-4 mb-6">
-        <ul className="mb-6">
-          <li>
-            <Link href="https://github.com/FoxerBN/socketio-support" target="_blank">
+            <Link href="https://github.com/FoxerBN/school" target="_blank">
               <strong className="underline text-sm">
                 {"> "}
                 {t("projects.school.name")}
@@ -122,12 +107,102 @@ export default function Projects() {
             </Link>
             <br />
             {t("projects.school.desc")}
-            <a className="underline font-bold cursor-pointer ml-2" 
-              href="https://school-production-5d53.up.railway.app/">
-              {"> "} Demo {" <"}</a>
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://school-production-5d53.up.railway.app/"
+            >
+              {"> "} Demo {" <"}
+            </a>
           </li>
         </ul>
       </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/ambient-simulator"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.ambientSim.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.ambientSim.desc")}
+            <a
+              href="#"
+              className="underline font-bold cursor-pointer ml-2"
+              onClick={(e) => {
+                e.preventDefault();
+                setOpenGallery("project4");
+              }}
+            >
+              {"> "} Gallery {" <"}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link href="https://github.com/FoxerBN/web-scraper" target="_blank">
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.webscraper.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.webscraper.desc")}
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://web-scraper-production-f717.up.railway.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"> "} Demo {" <"}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link href="https://github.com/FoxerBN/fyltr" target="_blank">
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.fyltr.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.fyltr.desc")}
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://github.com/FoxerBN/fyltr/releases/download/v1.0/fyltr.exe"
+            >
+              {"> "} Download .exe {" <"}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+  <ul className="mb-6">
+    <li>
+      <Link href="https://github.com/FoxerBN/mailSender" target="_blank">
+        <strong className="underline text-sm">
+          {"> "}
+          {t("projects.emailSender.name")}
+        </strong>
+      </Link>
+      <br />
+      {t("projects.emailSender.desc")}
+    </li>
+  </ul>
+</div>
 
       <Slideshow
         photos={openGallery ? galleries[openGallery] : []}

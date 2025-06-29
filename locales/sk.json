@@ -43,12 +43,28 @@
       "desc": "Bezpečný správca hesiel vytvorený v React Native a Expo. Obsahuje registráciu, prihlásenie, odomykanie odtlačkom prsta a osobný dashboard. Používateľ si môže ukladať heslá k rôznym účtom s možnosťou výberu ikony (napr. Facebook) a na zobrazenie hesla musí zadať vlastné dešifrovacie heslo."
     },
     "chatApp": {
-    "name": "Live Support Chat",
-    "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti."
-  },
-  "school": {
-    "name": "School Management API",
-    "desc": "RESTful API na správu používateľov a študentov v školskom systéme. Postavené na Node.js, Express.js a PostgreSQL. Obsahuje JWT autentifikáciu, CRUD pre študentov a používateľov, validáciu vstupov cez Zod a vlastný frontend na testovanie API. Nasadené na Railway."
-  }
+      "name": "Live Support Chat",
+      "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti."
+    },
+    "school": {
+      "name": "School Management API",
+      "desc": "RESTful API na správu používateľov a študentov v školskom systéme. Postavené na Node.js, Express.js a PostgreSQL. Obsahuje JWT autentifikáciu, CRUD pre študentov a používateľov, validáciu vstupov cez Zod a vlastný frontend na testovanie API. Nasadené na Railway."
+    },
+    "ambientSim": {
+      "name": "Ambient Simulator (Simulácia inteligentnej domácnosti)",
+      "desc": "Simulátor inteligentnej domácnosti v Jave (Swing), kde môžeš ovládať virtuálne zariadenia (svetlá, reproduktory a ďalšie), nastavovať ich parametre a sledovať celkovú spotrebu elektriny v reálnom čase. Všetky údaje o spotrebe sa ukladajú do logov a exportujú na analýzu."
+    },
+    "webscraper": {
+      "name": "Web Scraper",
+      "desc": "Jednoduchý a prispôsobiteľný web scraper vytvorený v Pythone s HTML rozhraním. Umožňuje extrahovať konkrétne dáta z webov pomocou vlastných selektorov a filtrov. Ideálne na rýchly zber dát a prototypovanie."
+    },
+    "fyltr": {
+      "name": "fyltr (Nástroj na konverziu obrázkov)",
+      "desc": "Python aplikácia na konverziu obrázkov (PNG, JPEG, JPG) do WebP s nastaviteľnou kvalitou. Umožňuje jednoducho pridať obrázky (drag & drop alebo výberom) a stiahnuť ich ako ZIP archív."
+    },
+    "emailSender": {
+      "name": "EmailSender (Posielač denných citátov)",
+      "desc": "Spring Boot aplikácia na posielanie personalizovaných HTML e-mailov s inšpiratívnymi citátmi. Využíva SendGrid API na odosielanie a zenquotes.io na získavanie citátov. Podporuje plánované odosielanie (2x denne) a upraviteľnú šablónu e-mailu."
+    }
   }
 }

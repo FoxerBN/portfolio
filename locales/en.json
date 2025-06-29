@@ -43,12 +43,28 @@
       "desc": "A secure password manager built with React Native and Expo. It features user registration, login, fingerprint unlocking, and a personal dashboard. Users can store account passwords with customizable icons (e.g. Facebook) and use a custom decryption password to reveal stored passwords."
     },
     "chatApp": {
-    "name": "Live Support Chat",
-    "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic."
-  },
+      "name": "Live Support Chat",
+      "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic."
+    },
     "school": {
-    "name": "School Management API",
-    "desc": "A RESTful API for managing users and students in a school system. Built with Node.js, Express.js, and PostgreSQL. Features JWT authentication, CRUD for students and users, input validation with Zod, and a custom frontend API tester. Hosted on Railway."
-  }
+      "name": "School Management API",
+      "desc": "A RESTful API for managing users and students in a school system. Built with Node.js, Express.js, and PostgreSQL. Features JWT authentication, CRUD for students and users, input validation with Zod, and a custom frontend API tester. Hosted on Railway."
+    },
+    "ambientSim": {
+      "name": "Ambient Simulator (Smart Home Simulation)",
+      "desc": "A smart home simulator in Java (Swing) where you can control virtual devices (lights, speakers, etc.), adjust their settings, and monitor total electricity consumption in real time. All power data is logged and exported for analysis."
+    },
+    "webscraper": {
+      "name": "Web Scraper",
+      "desc": "A simple and customizable web scraper built in Python with an HTML interface. Allows users to extract specific data from websites by specifying custom selectors and filters. Ideal for quick data collection and prototyping."
+    },
+    "fyltr": {
+      "name": "fyltr (Image Converter Tool)",
+      "desc": "A Python app to convert images (PNG, JPEG, JPG) to WebP with adjustable quality. Users can drag & drop or select files, then download the converted images as a ZIP archive."
+    },
+    "emailSender": {
+      "name": "EmailSender (Daily Quotes Mailer)",
+      "desc": "A Spring Boot application that sends personalized HTML emails with inspirational quotes, using the SendGrid API for delivery and zenquotes.io for daily quotes. Supports scheduled sending (twice a day) and a customizable email template."
+    }
   }
 }
