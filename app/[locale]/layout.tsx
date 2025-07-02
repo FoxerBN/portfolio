@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Source_Code_Pro } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import StarBackground from "@/components/StarBackground";
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -28,8 +29,11 @@ export default async function LocaleLayout(props: LayoutProps) {
   return (
     <html lang={locale} className={sourceCodePro.className}>
       <body className="min-h-screen flex flex-col">
+        <div className="contents">
+          <StarBackground />
+        </div>
         <Header />
-        <main className="flex-1 container mx-auto p-4">
+        <main className="flex-1 container mx-auto p-4 relative z-10">
           {children}
         </main>
         <Footer />

@@ -41,7 +41,7 @@ export default function ColorSwitcher() {
       {/* Modal */}
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-          <div className="bg-neutral-800  p-6 rounded shadow-lg">
+          <div className="bg-neutral-800 border p-6 rounded shadow-lg">
             <h2 className="font-semibold mb-4">Customize Colors</h2>
 
             <div className="space-y-4">
