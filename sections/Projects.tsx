@@ -190,19 +190,71 @@ export default function Projects() {
       </div>
 
       <div className="border-l-2 pl-4 mb-6">
-  <ul className="mb-6">
-    <li>
-      <Link href="https://github.com/FoxerBN/mailSender" target="_blank">
-        <strong className="underline text-sm">
-          {"> "}
-          {t("projects.emailSender.name")}
-        </strong>
-      </Link>
-      <br />
-      {t("projects.emailSender.desc")}
-    </li>
-  </ul>
-</div>
+        <ul className="mb-6">
+          <li>
+            <Link href="https://github.com/FoxerBN/mailSender" target="_blank">
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.emailSender.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.emailSender.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/login-template"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.loginTemplate.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.loginTemplate.desc")}
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://login-template-ecru.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"> "} Demo {" <"}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/java-auth"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.javaAuth.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.javaAuth.desc")}
+            <a
+              className="underline font-bold cursor-pointer ml-2"
+              href="https://react-auth-henna.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"> "} Demo {" <"}
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <Slideshow
         photos={openGallery ? galleries[openGallery] : []}

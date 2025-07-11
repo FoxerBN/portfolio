@@ -65,6 +65,14 @@
     "emailSender": {
       "name": "EmailSender (Posielač denných citátov)",
       "desc": "Spring Boot aplikácia na posielanie personalizovaných HTML e-mailov s inšpiratívnymi citátmi. Využíva SendGrid API na odosielanie a zenquotes.io na získavanie citátov. Podporuje plánované odosielanie (2x denne) a upraviteľnú šablónu e-mailu."
+    },
+    "loginTemplate": {
+      "name": "Login Template (Next.js + NextAuth)",
+      "desc": "Opakovateľná šablóna na prihlásenie pre Next.js aplikácie s podporou sociálneho loginu cez Google, Discord, Facebook a GitHub cez NextAuth.js. Jednoducho rozšíriteľné—môžeš pridať ďalších poskytovateľov alebo vlastnú logiku podľa potreby. Údaje o používateľoch sa bezpečne ukladajú (predvolene Supabase) a štruktúra je pripravená na ďalšie úpravy (roly, vlastné polia, atď.)."
+    },
+    "javaAuth": {
+      "name": "Java Auth (Spring Boot + React)",
+      "desc": "Jednoduchý boilerplate na prihlásenie cez Java Spring Boot a React. Podporuje login cez Google OAuth2 a generuje bezpečné JWT tokeny pre API. Kód je ľahko rozšíriteľný o ďalších poskytovateľov alebo vlastnú autentifikačnú logiku."
     }
   }
 }

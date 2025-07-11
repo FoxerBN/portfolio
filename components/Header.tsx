@@ -19,7 +19,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between">
         <h1 className="text-2xl font-bold relative overflow-hidden shiny-text">
           Richard Tekula
-          <span className={`block text-[12px] font-normal ${pressStart2P.className} shiny-reveal`}>
+          <span className={`block text-[12px] font-normal ${pressStart2P.className} p-1 shiny-reveal`}>
             Full-Stack Developer
           </span>
         </h1>

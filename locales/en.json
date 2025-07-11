@@ -65,6 +65,14 @@
     "emailSender": {
       "name": "EmailSender (Daily Quotes Mailer)",
       "desc": "A Spring Boot application that sends personalized HTML emails with inspirational quotes, using the SendGrid API for delivery and zenquotes.io for daily quotes. Supports scheduled sending (twice a day) and a customizable email template."
+    },
+    "loginTemplate": {
+      "name": "Login Template (Next.js + NextAuth)",
+      "desc": "A reusable authentication template for Next.js apps with social login via Google, Discord, Facebook, and GitHub using NextAuth.js. Easily extensible—add more providers or custom logic as you need. User data is securely stored (Supabase by default) and the structure is ready for further customization (roles, extra fields, etc.)."
+    },
+    "javaAuth": {
+      "name": "Java Auth (Spring Boot + React)",
+      "desc": "A simple login boilerplate using Java Spring Boot and React. Supports Google OAuth2 login and generates JWT tokens for secure API calls. Easily extensible to add more providers or custom authentication logic."
     }
   }
 }
