@@ -255,6 +255,24 @@ export default function Projects() {
           </li>
         </ul>
       </div>
+      
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/discord-bot"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.discordBot.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.discordBot.desc")}
+          </li>
+        </ul>
+      </div>
 
       <Slideshow
         photos={openGallery ? galleries[openGallery] : []}

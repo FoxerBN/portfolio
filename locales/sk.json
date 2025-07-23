@@ -73,6 +73,10 @@
     "javaAuth": {
       "name": "Java Auth (Spring Boot + React)",
       "desc": "Jednoduchý boilerplate na prihlásenie cez Java Spring Boot a React. Podporuje login cez Google OAuth2 a generuje bezpečné JWT tokeny pre API. Kód je ľahko rozšíriteľný o ďalších poskytovateľov alebo vlastnú autentifikačnú logiku."
+    },
+    "discordBot": {
+      "name": "Discord Bot",
+      "desc": "Pokročilý Discord bot napísaný v TypeScripte, ktorý využíva Discord.js na správu slash príkazov, ankiet, pravidiel, a ďalších interaktívnych funkcií. Podporuje dynamické načítavanie príkazov, odpovedanie na otázky o Discord.js, zobrazovanie počtu členov v serveri, a automatické rozosielanie pravidiel do vybraných kanálov. Vhodné ako ukážka práce s API Discordu, modulárnou štruktúrou a TypeScriptom."
     }
   }
 }

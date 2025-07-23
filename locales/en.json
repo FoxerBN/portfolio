@@ -73,6 +73,10 @@
     "javaAuth": {
       "name": "Java Auth (Spring Boot + React)",
       "desc": "A simple login boilerplate using Java Spring Boot and React. Supports Google OAuth2 login and generates JWT tokens for secure API calls. Easily extensible to add more providers or custom authentication logic."
+    },
+    "discordBot": {
+      "name": "Discord Bot",
+      "desc": "An advanced Discord bot written in TypeScript using Discord.js for managing slash commands, polls, server rules, and interactive features. Supports dynamic command loading, answering Discord.js concept questions, displaying server member count, and automatic rule posting to selected channels. Great as a showcase of Discord API integration, modular structure, and TypeScript usage."
     }
   }
 }
