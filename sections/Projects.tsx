@@ -273,6 +273,24 @@ export default function Projects() {
           </li>
         </ul>
       </div>
+      
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/python-services"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.pythonServices.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.pythonServices.desc")}
+          </li>
+        </ul>
+      </div>
 
       <Slideshow
         photos={openGallery ? galleries[openGallery] : []}

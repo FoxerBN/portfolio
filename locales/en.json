@@ -4,8 +4,8 @@
     "title": "## Info",
     "age": "Age: 27",
     "location": "Location: Bánovce nad Bebravou",
-    "programming": "Programming since February 2024 (~16 months)",
-    "english": "English Level: B1~B2",
+    "programming": "Programming since February 2024",
+    "english": "English Level: B2",
     "focus": "Focus: Backend Development & API, Security",
     "hobby": "Hobbies: Programming, Gaming, Books, 3DPrinting"
   },
@@ -13,21 +13,21 @@
     "title": "## Tools I Use",
     "projectControl": "Project Control: Git, GitHub",
     "apiTesting": "API Testing: Swagger, Postman, Insomnia",
-    "ide": "IDEs: Visual Studio Code, IntelliJ IDEA",
+    "ide": "IDEs: Visual Studio Code, IntelliJ IDEA, PyCharm, Zed",
     "databases": "Databases: MySQL, PostgreSQL, MongoDB, SQLite"
   },
   "skills": {
     "title": "## Skills",
-    "frontend": "HTML, CSS, SCSS, TailwindCSS",
-    "backend": "ExpressJS, Spring Boot, FastAPI",
-    "languages": "JavaScript (Intermediate), TypeScript (Basic), Python (Basic), Java (Basic)",
-    "frameworks": "React, Next.js, React Native, NodeJS",
-    "testing": "Testing with Jest, Supertest, Junit"
+    "frontend": "HTML, CSS, SCSS, TailwindCSS, Third-Party Libraries",
+    "backend": "NodeJS, Spring Boot, FastAPI",
+    "languages": "JavaScript, TypeScript, Python, Java",
+    "frameworks": "React, Next.js, React Native, ExpressJS",
+    "testing": "Testing with Jest, Supertest, Junit, Pytest"
   },
   "interests": {
     "title": "## Interests",
     "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
-    "focus": "Security, Authentication,Databases, Real-time Applications, File Handling, Testing",
+    "focus": "Security, Authentication, Databases, Real-time Applications, File Handling, Testing",
     "ai": "Implementing AI into real-world projects",
     "growth": "Quickly learning new technologies and concepts in programming",
     "problemSolving": "Solving problems in my own projects and exploring various solutions"
@@ -77,6 +77,10 @@
     "discordBot": {
       "name": "Discord Bot",
       "desc": "An advanced Discord bot written in TypeScript using Discord.js for managing slash commands, polls, server rules, and interactive features. Supports dynamic command loading, answering Discord.js concept questions, displaying server member count, and automatic rule posting to selected channels. Great as a showcase of Discord API integration, modular structure, and TypeScript usage."
+    },
+    "pythonServices": {
+      "name": "python-services (FastAPI Microservices)",
+      "desc": "A modular microservices project in Python using FastAPI. Includes three independent services: user management, order processing, and stock inventory. Each service is Dockerized, communicates via HTTP, and maintains its own database. Suitable for learning, prototyping, or as a base for e-commerce/logistics systems. Features REST APIs, JWT authentication, logging, and health-check endpoints."
     }
   }
 }

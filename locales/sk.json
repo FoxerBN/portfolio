@@ -4,8 +4,8 @@
     "title": "## Info",
     "age": "Vek: 27",
     "location": "Miesto: Bánovce nad Bebravou",
-    "programming": "Programujem od februára 2024 (~16 mesiacov)",
-    "english": "Úroveň angličtiny: B1~B2",
+    "programming": "Programujem od februára 2024",
+    "english": "Úroveň angličtiny: B2",
     "focus": "Zameranie: Backend Development, API & Security",
     "hobby": "Hobby: Programovanie, Hry, Knihy, 3DPrint"
   },
@@ -13,21 +13,21 @@
     "title": "## Nástroje, ktoré používam",
     "projectControl": "Správa projektov: Git, GitHub",
     "apiTesting": "Testovanie API: Swagger, Postman, Insomnia",
-    "ide": "Vývojové prostredia: Visual Studio Code, IntelliJ IDEA",
+    "ide": "Vývojové prostredia: Visual Studio Code, IntelliJ IDEA, PyCharm, Zed",
     "databases": "Databázy: MySQL, PostgreSQL, MongoDB, SQLite"
   },
   "skills": {
     "title": "## Zručnosti",
-    "frontend": "HTML, CSS, SCSS, TailwindCSS",
-    "backend": "ExpressJS, Spring Boot, FastAPI",
-    "languages": "JavaScript (Pokročilý), TypeScript (Základy), Python (Základy), Java (Základy)",
-    "frameworks": "React, Next.js, React Native, NodeJS",
-    "testing": "Testovanie s Jest, Supertest, Junit"
+    "frontend": "HTML, CSS, SCSS, TailwindCSS, Third-party knižnice",
+    "backend": "NodeJS, Spring Boot, FastAPI",
+    "languages": "JavaScript, TypeScript, Python, Java",
+    "frameworks": "React, Next.js, React Native, ExpressJS",
+    "testing": "Testovanie s Jest, Supertest, Junit, Pytest"
   },
   "interests": {
     "title": "## Záujmy",
     "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
-    "focus": "Bezpečnosť, Autentifikácia,Databázy, Real-time aplikácie, Práca so súbormi, Testovanie",
+    "focus": "Bezpečnosť, Autentifikácia, Databázy, Real-time aplikácie, Práca so súbormi, Testovanie",
     "ai": "Implementácia AI do reálnych projektov",
     "growth": "Rýchlo sa učím nové technológie a koncepty v programovaní",
     "problemSolving": "Riešenie problémov vo vlastných projektoch a skúmanie rôznych riešení"
@@ -77,6 +77,10 @@
     "discordBot": {
       "name": "Discord Bot",
       "desc": "Pokročilý Discord bot napísaný v TypeScripte, ktorý využíva Discord.js na správu slash príkazov, ankiet, pravidiel, a ďalších interaktívnych funkcií. Podporuje dynamické načítavanie príkazov, odpovedanie na otázky o Discord.js, zobrazovanie počtu členov v serveri, a automatické rozosielanie pravidiel do vybraných kanálov. Vhodné ako ukážka práce s API Discordu, modulárnou štruktúrou a TypeScriptom."
+    },
+    "pythonServices": {
+      "name": "python-services (Mikroslužby vo FastAPI)",
+      "desc": "Projekt modulárnych mikroslužieb v Pythone postavený na FastAPI. Obsahuje tri samostatné služby: správu používateľov, objednávok a skladových zásob. Každá služba je samostatne nasaditeľná (Docker), komunikuje cez HTTP a má vlastnú databázu. Je vhodný na učenie, prototypovanie alebo ako základ pre e-commerce/logistické systémy. Podporuje REST API, JWT autentifikáciu, logging a health-check endpointy."
     }
   }
 }
