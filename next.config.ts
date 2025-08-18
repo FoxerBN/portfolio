@@ -1,5 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig: import('next').NextConfig = {
-}
+import type { NextConfig } from 'next';
 
-export default nextConfig
+const nextConfig: NextConfig = {
+  output: 'export',            // vygeneruje čistú statiku do /out
+  images: { unoptimized: true }, // Next/Image bez servera
+  trailingSlash: true,         // zabráni 404 pri refreshi na podstránkach
+};
+
+export default nextConfig;
