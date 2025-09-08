@@ -15,6 +15,7 @@ export default function Info() {
         <li>{">"} {t('info.english')}</li>
         <li>{">"} {t('info.focus')}</li>
         <li>{">"} {t('info.hobby')}</li>
+        <li>{">"} <a className="hover:font-extrabold underline" target="_blank" href="https://leetcode.com/problem-list/v96js4fr/">{"> "}My leetcode {"<"}</a></li>
       </ul>
     </>
   );
