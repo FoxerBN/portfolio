@@ -87,7 +87,7 @@ export default function ChatBot({ className = "" }: ChatBotProps) {
       </div>
 
       {/* Chatbot Iframe */}
-      <div className={`fixed bottom-20 right-4 left-4 sm:left-auto sm:right-4 z-40 transition-all duration-300 ${
+      <div className={`fixed bottom-20 right-4 left-4 sm:left-auto sm:right-4 z-[100] transition-all duration-300 ${
         openChatbot ? 'chatbot-slide-in opacity-100 visible' : 'opacity-0 invisible translate-y-4'
       }`}>
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden max-w-sm sm:max-w-md lg:max-w-2xl mx-auto sm:mx-0 relative border border-gray-200 dark:border-gray-600">
