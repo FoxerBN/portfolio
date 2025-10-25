@@ -292,6 +292,114 @@ export default function Projects() {
         </ul>
       </div>
 
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/my-chatbot"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.myChatbot.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.myChatbot.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/resume-checker"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.resumeChecker.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.resumeChecker.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/ERP-system"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.erpSystem.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.erpSystem.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/yokai-backend"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.yokaiBackend.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.yokaiBackend.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/memryx-backend"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.memryxBackend.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.memryxBackend.desc")}
+          </li>
+        </ul>
+      </div>
+
+      <div className="border-l-2 pl-4 mb-6">
+        <ul className="mb-6">
+          <li>
+            <Link
+              href="https://github.com/FoxerBN/graffpy-backend"
+              target="_blank"
+            >
+              <strong className="underline text-sm">
+                {"> "}
+                {t("projects.graffpyBackend.name")}
+              </strong>
+            </Link>
+            <br />
+            {t("projects.graffpyBackend.desc")}
+          </li>
+        </ul>
+      </div>
+
       <Slideshow
         photos={openGallery ? galleries[openGallery] : []}
         folder={openGallery ?? ""}

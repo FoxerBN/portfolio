@@ -82,6 +82,30 @@
     "pythonServices": {
       "name": "python-services (FastAPI Microservices)",
       "desc": "A modular microservices project in Python using FastAPI. Includes three independent services: user management, order processing, and stock inventory. Each service is Dockerized, communicates via HTTP, and maintains its own database. Suitable for learning, prototyping, or as a base for e-commerce/logistics systems. Features REST APIs, JWT authentication, logging, and health-check endpoints."
+    },
+    "myChatbot": {
+      "name": "My Chatbot",
+      "desc": "Personal chatbot configured to answer questions about me."
+    },
+    "resumeChecker": {
+      "name": "Resume Checker",
+      "desc": "n8n + FastAPI automation that analyzes resumes via email trigger, evaluates them against job postings using OpenAI, and sends scoring results to Discord."
+    },
+    "erpSystem": {
+      "name": "ERP System",
+      "desc": "JavaFX-based inventory management system with basic CRUD operations for stock tracking."
+    },
+    "yokaiBackend": {
+      "name": "Yokai Backend",
+      "desc": "Blog about Japanese yokai (supernatural creatures) with admin dashboard for content management."
+    },
+    "memryxBackend": {
+      "name": "Memryx Backend",
+      "desc": "Responsive flashcard application where users can create decks, folders, and flashcards with smooth animations."
+    },
+    "graffpyBackend": {
+      "name": "Graffpy Backend",
+      "desc": "Backend system for recording and monitoring data from Raspberry Pi in real-time."
     }
   }
 }

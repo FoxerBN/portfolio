@@ -81,6 +81,30 @@
     "pythonServices": {
       "name": "python-services (Mikroslužby vo FastAPI)",
       "desc": "Projekt modulárnych mikroslužieb v Pythone postavený na FastAPI. Obsahuje tri samostatné služby: správu používateľov, objednávok a skladových zásob. Každá služba je samostatne nasaditeľná (Docker), komunikuje cez HTTP a má vlastnú databázu. Je vhodný na učenie, prototypovanie alebo ako základ pre e-commerce/logistické systémy. Podporuje REST API, JWT autentifikáciu, logging a health-check endpointy."
+    },
+    "myChatbot": {
+      "name": "My Chatbot",
+      "desc": "Vlastný chatbot nastavený tak, aby odpovedal na otázky o mne."
+    },
+    "resumeChecker": {
+      "name": "Resume Checker",
+      "desc": "Automatizácia cez n8n a FastAPI, ktorá analyzuje životopisy cez email trigger, vyhodnocuje ich voči inzerátom pomocou OpenAI a posiela výsledky hodnotenia na Discord."
+    },
+    "erpSystem": {
+      "name": "ERP System",
+      "desc": "Systém na správu skladových zásob postavený na JavaFX so základnými CRUD operáciami."
+    },
+    "yokaiBackend": {
+      "name": "Yokai Backend",
+      "desc": "Blog o japonských yokai (nadprirodzených bytostiach) s admin dashboardom na správu obsahu."
+    },
+    "memryxBackend": {
+      "name": "Memryx Backend",
+      "desc": "Responzívna aplikácia na flashkarty, kde si používatelia môžu vytvárať balíčky, priečinky a flashkarty s plynulými animáciami."
+    },
+    "graffpyBackend": {
+      "name": "Graffpy Backend",
+      "desc": "Backend systém na zaznamenávanie a monitorovanie dát z Raspberry Pi v reálnom čase."
     }
   }
 }

@@ -4,6 +4,7 @@ import { Source_Code_Pro } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StarBackground from "@/components/StarBackground";
+import ChatBot from "@/components/ChatBot";
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -37,6 +38,7 @@ export default async function LocaleLayout(props: LayoutProps) {
           {children}
         </main>
         <Footer />
+        <ChatBot />
       </body>
     </html>
   );
