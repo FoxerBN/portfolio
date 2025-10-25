@@ -188,13 +188,8 @@ h2 {
 
 /* Enhanced iframe container */
 .chatbot-iframe-container {
-  background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.03) 0%,
-    rgba(147, 51, 234, 0.03) 50%,
-    rgba(59, 130, 246, 0.03) 100%);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: #ffffff !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Dark mode adjustments for glassmorphism */
@@ -213,18 +208,15 @@ h2 {
   }
   
   .glassmorphism-chatbot::before {
-    background: linear-gradient(90deg, 
+    background: linear-gradient(90deg,
       transparent,
       rgba(255, 255, 255, 0.1),
       transparent);
   }
-  
+
   .chatbot-iframe-container {
-    background: linear-gradient(135deg, 
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(147, 51, 234, 0.1) 50%,
-      rgba(59, 130, 246, 0.1) 100%);
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1f2937 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 
