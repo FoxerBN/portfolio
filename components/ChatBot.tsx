@@ -122,17 +122,15 @@ export default function ChatBot({ className = "" }: ChatBotProps) {
               </div>
             </div>
           )}
-          <div className="chatbot-iframe-container relative">
+          <div className="chatbot-iframe-container relative bg-white dark:bg-gray-800">
             <iframe
               src={iframeLoaded ? "https://my-chatty.streamlit.app/?embed=true" : "about:blank"}
-              className="w-full h-[75vh] sm:h-[70vh] lg:h-[600px] border-0 bg-transparent"
+              className="w-full h-[75vh] sm:h-[70vh] lg:h-[600px] border-0 bg-white dark:bg-gray-800"
               title="Chatbot Assistant"
               allow="microphone; camera; clipboard-write"
               loading="lazy"
               onLoad={handleIframeLoad}
             />
-            {/* Subtle overlay for glass effect on iframe */}
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-blue-500/5 pointer-events-none"></div>
           </div>
         </div>
       </div>
