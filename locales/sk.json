@@ -6,6 +6,7 @@
     "location": "Miesto: Bánovce nad Bebravou",
     "programming": "Programujem od februára 2024",
     "english": "Úroveň angličtiny: B2",
+    "currentWork": "Momentálne pracujem ako Full-Stack Developer pre slovenskú firmu v Bratislave",
     "focus": "Zameranie: Backend Development, API & Security",
     "hobby": "Hobby: Programovanie, Hry, Knihy, 3DPrint"
   },
@@ -14,23 +15,30 @@
     "projectControl": "Správa projektov: Git, GitHub",
     "apiTesting": "Testovanie API: Swagger, Postman, Insomnia",
     "ide": "Vývojové prostredia: Visual Studio Code, IntelliJ IDEA, PyCharm, Zed",
-    "databases": "Databázy: MySQL, PostgreSQL, MongoDB, SQLite"
+    "databases": "SQL databázy: MySQL, PostgreSQL, SQLite",
+    "vectorDatabases": "Vektorové databázy: ChromaDB, Pinecone, Qdrant",
+    "noSqlDatabases": "NoSQL databázy: MongoDB",
+    "os": "Operačné systémy: Linux (Ubuntu, Pop OS, Arch, Zorin OS)",
+    "selfHosting": "Self-hosting: Raspberry Pi 5 (viacero služieb na localhoste)"
   },
   "skills": {
     "title": "## Zručnosti",
-    "frontend": "HTML, CSS, SCSS, TailwindCSS, Third-party knižnice",
-    "backend": "NodeJS, Spring Boot, FastAPI",
+    "frontend": "HTML, CSS, SCSS, TailwindCSS, Responzívny dizajn",
+    "backend": "NodeJS, Spring Boot, FastAPI, Express.js, Koa, Fastify",
     "languages": "JavaScript, TypeScript, Python, Java",
     "frameworks": "React, Next.js, React Native, ExpressJS",
-    "testing": "Testovanie s Jest, Supertest, Junit, Pytest"
+    "testing": "Testovanie s Jest, Supertest, Junit, Pytest",
+    "devops": "Docker, základy n8n automatizácie",
+    "security": "JWT autentifikácia, OAuth2, bezpečnostné best practices",
+    "realtime": "Real-time aplikácie (WebSockets, Socket.io)",
+    "ai": "Implementácia AI do reálnych projektov (OpenAI API, vektorové databázy)"
   },
-  "interests": {
-    "title": "## Záujmy",
-    "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
-    "focus": "Bezpečnosť, Autentifikácia, Databázy, Real-time aplikácie, Práca so súbormi, Testovanie",
-    "ai": "Implementácia AI do reálnych projektov",
-    "growth": "Rýchlo sa učím nové technológie a koncepty v programovaní",
-    "problemSolving": "Riešenie problémov vo vlastných projektoch a skúmanie rôznych riešení"
+  "experience": {
+    "title": "## Skúsenosti z reálnych projektov",
+    "crm": "CRM systém - vývoj a údržba",
+    "chatbot": "AI Chatbot - integrácia s OpenAI API",
+    "mcp": "MCP Server - nástroje na prácu s vektorovými a SQL databázami",
+    "fullstack": "Full-stack vývoj pre komerčné projekty"
   },
   "projects": {
     "title": "## Projekty",

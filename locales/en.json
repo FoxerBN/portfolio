@@ -6,6 +6,7 @@
     "location": "Location: Bánovce nad Bebravou",
     "programming": "Programming since February 2024",
     "english": "English Level: B2",
+    "currentWork": "Currently working as Full-Stack Developer for a Slovak company based in Bratislava",
     "focus": "Focus: Backend Development & API, Security",
     "hobby": "Hobbies: Programming, Gaming, Books, 3DPrinting"
   },
@@ -14,24 +15,30 @@
     "projectControl": "Project Control: Git, GitHub",
     "apiTesting": "API Testing: Swagger, Postman, Insomnia",
     "ide": "IDEs: Visual Studio Code, IntelliJ IDEA, PyCharm, Zed",
-    "databases": "Databases: MySQL, PostgreSQL, MongoDB, SQLite"
+    "databases": "SQL Databases: MySQL, PostgreSQL, SQLite",
+    "vectorDatabases": "Vector Databases: ChromaDB, Pinecone, Qdrant",
+    "noSqlDatabases": "NoSQL Databases: MongoDB",
+    "os": "Operating Systems: Linux (Ubuntu, Pop OS, Arch, Zorin OS)",
+    "selfHosting": "Self-hosting: Raspberry Pi 5 (multiple services on localhost)"
   },
   "skills": {
     "title": "## Skills",
-    "frontend": "HTML, CSS, SCSS, TailwindCSS, Third-Party Libraries",
-    "backend": "NodeJS, Spring Boot, FastAPI",
+    "frontend": "HTML, CSS, SCSS, TailwindCSS, Responsive Design",
+    "backend": "NodeJS, Spring Boot, FastAPI, Express.js, Koa, Fastify",
     "languages": "JavaScript, TypeScript, Python, Java",
     "frameworks": "React, Next.js, React Native, ExpressJS",
-    "testing": "Testing with Jest, Supertest, Junit, Pytest"
+    "testing": "Testing with Jest, Supertest, Junit, Pytest",
+    "devops": "Docker, n8n automation basics",
+    "security": "JWT authentication, OAuth2, security best practices",
+    "realtime": "Real-time applications (WebSockets, Socket.io)",
+    "ai": "Implementing AI into real-world projects (OpenAI API, vector databases)"
   },
-  "interests": {
-    "title": "## Interests",
-    "frameworks": "Spring Boot, Express.js, Koa, Fastify, FastAPI",
-    "focus": "Security, Authentication, Databases, Real-time Applications, File Handling, Testing",
-    "currentlyLearning": "Docker, ",
-    "ai": "Implementing AI into real-world projects",
-    "growth": "Quickly learning new technologies and concepts in programming",
-    "problemSolving": "Solving problems in my own projects and exploring various solutions"
+  "experience": {
+    "title": "## Real-World Project Experience",
+    "crm": "CRM System - development and maintenance",
+    "chatbot": "AI Chatbot - OpenAI API integration",
+    "mcp": "MCP Server - tools for working with vector and SQL databases",
+    "fullstack": "Full-stack development for commercial projects"
   },
   "projects": {
     "title": "## Projects",
