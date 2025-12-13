@@ -37,75 +37,93 @@
     "title": "## Projects",
     "backex": {
       "name": "back-ex (starter backend)",
-      "desc": "Modular starter for Express.js projects — choose JS/TS, MongoDB, Cloudinary, and more as needed. Includes JWT auth, validation, and clean project structure."
-    },
-    "onepas": {
-      "name": "Onepas (Password Manager App)",
-      "desc": "A secure password manager built with React Native and Expo. It features user registration, login, fingerprint unlocking, and a personal dashboard. Users can store account passwords with customizable icons (e.g. Facebook) and use a custom decryption password to reveal stored passwords."
-    },
-    "chatApp": {
-      "name": "Live Support Chat",
-      "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic."
-    },
-    "school": {
-      "name": "School Management API",
-      "desc": "A RESTful API for managing users and students in a school system. Built with Node.js, Express.js, and PostgreSQL. Features JWT authentication, CRUD for students and users, input validation with Zod, and a custom frontend API tester. Hosted on Railway."
-    },
-    "ambientSim": {
-      "name": "Ambient Simulator (Smart Home Simulation)",
-      "desc": "A smart home simulator in Java (Swing) where you can control virtual devices (lights, speakers, etc.), adjust their settings, and monitor total electricity consumption in real time. All power data is logged and exported for analysis."
-    },
-    "webscraper": {
-      "name": "Web Scraper",
-      "desc": "A simple and customizable web scraper built in Python with an HTML interface. Allows users to extract specific data from websites by specifying custom selectors and filters. Ideal for quick data collection and prototyping."
-    },
-    "fyltr": {
-      "name": "fyltr (Image Converter Tool)",
-      "desc": "A Python app to convert images (PNG, JPEG, JPG) to WebP with adjustable quality. Users can drag & drop or select files, then download the converted images as a ZIP archive."
-    },
-    "emailSender": {
-      "name": "EmailSender (Daily Quotes Mailer)",
-      "desc": "A Spring Boot application that sends personalized HTML emails with inspirational quotes, using the SendGrid API for delivery and zenquotes.io for daily quotes. Supports scheduled sending (twice a day) and a customizable email template."
-    },
-    "loginTemplate": {
-      "name": "Login Template (Next.js + NextAuth)",
-      "desc": "A reusable authentication template for Next.js apps with social login via Google, Discord, Facebook, and GitHub using NextAuth.js. Easily extensible—add more providers or custom logic as you need. User data is securely stored (Supabase by default) and the structure is ready for further customization (roles, extra fields, etc.)."
-    },
-    "javaAuth": {
-      "name": "Java Auth (Spring Boot + React)",
-      "desc": "A simple login boilerplate using Java Spring Boot and React. Supports Google OAuth2 login and generates JWT tokens for secure API calls. Easily extensible to add more providers or custom authentication logic."
-    },
-    "discordBot": {
-      "name": "Discord Bot",
-      "desc": "An advanced Discord bot written in TypeScript using Discord.js for managing slash commands, polls, server rules, and interactive features. Supports dynamic command loading, answering Discord.js concept questions, displaying server member count, and automatic rule posting to selected channels. Great as a showcase of Discord API integration, modular structure, and TypeScript usage."
+      "desc": "Modular starter for Express.js projects — choose JS/TS, MongoDB, Cloudinary, and more as needed. Includes JWT auth, validation, and clean project structure.",
+      "link": "https://github.com/FoxerBN/back-ex"
     },
     "pythonServices": {
       "name": "python-services (FastAPI Microservices)",
-      "desc": "A modular microservices project in Python using FastAPI. Includes three independent services: user management, order processing, and stock inventory. Each service is Dockerized, communicates via HTTP, and maintains its own database. Suitable for learning, prototyping, or as a base for e-commerce/logistics systems. Features REST APIs, JWT authentication, logging, and health-check endpoints."
+      "desc": "A modular microservices project in Python using FastAPI. Includes three independent services: user management, order processing, and stock inventory. Each service is Dockerized, communicates via HTTP, and maintains its own database. Suitable for learning, prototyping, or as a base for e-commerce/logistics systems. Features REST APIs, JWT authentication, logging, and health-check endpoints.",
+      "link": "https://github.com/FoxerBN/python-services"
+    },
+    "school": {
+      "name": "School Management API",
+      "desc": "A RESTful API for managing users and students in a school system. Built with Node.js, Express.js, and PostgreSQL. Features JWT authentication, CRUD for students and users, input validation with Zod, and a custom frontend API tester. Hosted on Railway.",
+      "link": "https://github.com/FoxerBN/school-manager"
     },
     "myChatbot": {
-      "name": "My Chatbot",
-      "desc": "Personal chatbot configured to answer questions about me."
+      "name": "My Chatbot (AI Portfolio Assistant)",
+      "desc": "An intelligent chatbot powered by Flask and OpenAI API that answers questions about me and my portfolio. Uses SQLAlchemy database with automatic message cleanup (1-hour expiration), includes safety content filters, and is production-ready with Gunicorn deployment. Provides REST API for frontend integration with CORS support.",
+      "link": "https://github.com/FoxerBN/my-chatbot"
+    },
+    "chatApp": {
+      "name": "Live Support Chat",
+      "desc": "A real-time support chat app using React, Socket.io, and Express. Users can create or join private 1-on-1 rooms. When a room is created, an email invitation is sent via SendGrid. The app supports two-way messaging with live updates and room readiness logic.",
+      "link": "https://github.com/FoxerBN/live-support-chat"
+    },
+    "onepas": {
+      "name": "Onepas (Password Manager App)",
+      "desc": "A secure password manager built with React Native and Expo. It features user registration, login, fingerprint unlocking, and a personal dashboard. Users can store account passwords with customizable icons (e.g. Facebook) and use a custom decryption password to reveal stored passwords.",
+      "link": "https://github.com/FoxerBN/onepas"
+    },
+    "loginTemplate": {
+      "name": "Login Template (Next.js + NextAuth)",
+      "desc": "A reusable authentication template for Next.js apps with social login via Google, Discord, Facebook, and GitHub using NextAuth.js. Easily extensible—add more providers or custom logic as you need. User data is securely stored (Supabase by default) and the structure is ready for further customization (roles, extra fields, etc.).",
+      "link": "https://github.com/FoxerBN/nextauth-template"
+    },
+    "javaAuth": {
+      "name": "Java Auth (Spring Boot + React)",
+      "desc": "A simple login boilerplate using Java Spring Boot and React. Supports Google OAuth2 login and generates JWT tokens for secure API calls. Easily extensible to add more providers or custom authentication logic.",
+      "link": "https://github.com/FoxerBN/java-auth"
     },
     "resumeChecker": {
       "name": "Resume Checker",
-      "desc": "n8n + FastAPI automation that analyzes resumes via email trigger, evaluates them against job postings using OpenAI, and sends scoring results to Discord."
+      "desc": "n8n + FastAPI automation that analyzes resumes via email trigger, evaluates them against job postings using OpenAI, and sends scoring results to Discord.",
+      "link": "https://github.com/FoxerBN/resume-checker"
+    },
+    "discordBot": {
+      "name": "Discord Bot",
+      "desc": "An advanced Discord bot written in TypeScript using Discord.js for managing slash commands, polls, server rules, and interactive features. Supports dynamic command loading, answering Discord.js concept questions, displaying server member count, and automatic rule posting to selected channels. Great as a showcase of Discord API integration, modular structure, and TypeScript usage.",
+      "link": "https://github.com/FoxerBN/discord-bot"
+    },
+    "emailSender": {
+      "name": "EmailSender (Daily Quotes Mailer)",
+      "desc": "A Spring Boot application that sends personalized HTML emails with inspirational quotes, using the SendGrid API for delivery and zenquotes.io for daily quotes. Supports scheduled sending (twice a day) and a customizable email template.",
+      "link": "https://github.com/FoxerBN/email-sender"
+    },
+    "webscraper": {
+      "name": "Web Scraper",
+      "desc": "A simple and customizable web scraper built in Python with an HTML interface. Allows users to extract specific data from websites by specifying custom selectors and filters. Ideal for quick data collection and prototyping.",
+      "link": "https://github.com/FoxerBN/web-scraper"
+    },
+    "fyltr": {
+      "name": "fyltr (Image Converter Tool)",
+      "desc": "A Python app to convert images (PNG, JPEG, JPG) to WebP with adjustable quality. Users can drag & drop or select files, then download the converted images as a ZIP archive.",
+      "link": "https://github.com/FoxerBN/fyltr"
+    },
+    "ambientSim": {
+      "name": "Ambient Simulator (Smart Home Simulation)",
+      "desc": "A smart home simulator in Java (Swing) where you can control virtual devices (lights, speakers, etc.), adjust their settings, and monitor total electricity consumption in real time. All power data is logged and exported for analysis.",
+      "link": "https://github.com/FoxerBN/ambient-simulator"
     },
     "erpSystem": {
       "name": "ERP System",
-      "desc": "JavaFX-based inventory management system with basic CRUD operations for stock tracking."
+      "desc": "JavaFX-based inventory management system with basic CRUD operations for stock tracking.",
+      "link": "https://github.com/FoxerBN/erp-system"
     },
     "yokaiBackend": {
       "name": "Yokai Backend",
-      "desc": "Blog about Japanese yokai (supernatural creatures) with admin dashboard for content management."
+      "desc": "Blog about Japanese yokai (supernatural creatures) with admin dashboard for content management.",
+      "link": "https://github.com/FoxerBN/yokai-backend"
     },
     "memryxBackend": {
       "name": "Memryx Backend",
-      "desc": "Responsive flashcard application where users can create decks, folders, and flashcards with smooth animations."
+      "desc": "Responsive flashcard application where users can create decks, folders, and flashcards with smooth animations.",
+      "link": "https://github.com/FoxerBN/memryx-backend"
     },
     "graffpyBackend": {
       "name": "Graffpy Backend",
-      "desc": "Backend system for recording and monitoring data from Raspberry Pi in real-time."
+      "desc": "Backend system for recording and monitoring data from Raspberry Pi in real-time.",
+      "link": "https://github.com/FoxerBN/graffpy-backend"
     }
   }
 }

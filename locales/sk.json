@@ -36,75 +36,93 @@
     "title": "## Projekty",
     "backex": {
       "name": "back-ex (štartovací backend)",
-      "desc": "Modulárny starter pre Express.js projekty, kde si vieš zvoliť JS/TS, MongoDB, Cloudinary a ďalšie časti podľa potreby. Obsahuje JWT autentifikáciu, validáciu a čistú štruktúru."
-    },
-    "onepas": {
-      "name": "Onepas (Správca hesiel)",
-      "desc": "Bezpečný správca hesiel vytvorený v React Native a Expo. Obsahuje registráciu, prihlásenie, odomykanie odtlačkom prsta a osobný dashboard. Používateľ si môže ukladať heslá k rôznym účtom s možnosťou výberu ikony (napr. Facebook) a na zobrazenie hesla musí zadať vlastné dešifrovacie heslo."
-    },
-    "chatApp": {
-      "name": "Live Support Chat",
-      "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti."
-    },
-    "school": {
-      "name": "School Management API",
-      "desc": "RESTful API na správu používateľov a študentov v školskom systéme. Postavené na Node.js, Express.js a PostgreSQL. Obsahuje JWT autentifikáciu, CRUD pre študentov a používateľov, validáciu vstupov cez Zod a vlastný frontend na testovanie API. Nasadené na Railway."
-    },
-    "ambientSim": {
-      "name": "Ambient Simulator (Simulácia inteligentnej domácnosti)",
-      "desc": "Simulátor inteligentnej domácnosti v Jave (Swing), kde môžeš ovládať virtuálne zariadenia (svetlá, reproduktory a ďalšie), nastavovať ich parametre a sledovať celkovú spotrebu elektriny v reálnom čase. Všetky údaje o spotrebe sa ukladajú do logov a exportujú na analýzu."
-    },
-    "webscraper": {
-      "name": "Web Scraper",
-      "desc": "Jednoduchý a prispôsobiteľný web scraper vytvorený v Pythone s HTML rozhraním. Umožňuje extrahovať konkrétne dáta z webov pomocou vlastných selektorov a filtrov. Ideálne na rýchly zber dát a prototypovanie."
-    },
-    "fyltr": {
-      "name": "fyltr (Nástroj na konverziu obrázkov)",
-      "desc": "Python aplikácia na konverziu obrázkov (PNG, JPEG, JPG) do WebP s nastaviteľnou kvalitou. Umožňuje jednoducho pridať obrázky (drag & drop alebo výberom) a stiahnuť ich ako ZIP archív."
-    },
-    "emailSender": {
-      "name": "EmailSender (Posielač denných citátov)",
-      "desc": "Spring Boot aplikácia na posielanie personalizovaných HTML e-mailov s inšpiratívnymi citátmi. Využíva SendGrid API na odosielanie a zenquotes.io na získavanie citátov. Podporuje plánované odosielanie (2x denne) a upraviteľnú šablónu e-mailu."
-    },
-    "loginTemplate": {
-      "name": "Login Template (Next.js + NextAuth)",
-      "desc": "Opakovateľná šablóna na prihlásenie pre Next.js aplikácie s podporou sociálneho loginu cez Google, Discord, Facebook a GitHub cez NextAuth.js. Jednoducho rozšíriteľné—môžeš pridať ďalších poskytovateľov alebo vlastnú logiku podľa potreby. Údaje o používateľoch sa bezpečne ukladajú (predvolene Supabase) a štruktúra je pripravená na ďalšie úpravy (roly, vlastné polia, atď.)."
-    },
-    "javaAuth": {
-      "name": "Java Auth (Spring Boot + React)",
-      "desc": "Jednoduchý boilerplate na prihlásenie cez Java Spring Boot a React. Podporuje login cez Google OAuth2 a generuje bezpečné JWT tokeny pre API. Kód je ľahko rozšíriteľný o ďalších poskytovateľov alebo vlastnú autentifikačnú logiku."
-    },
-    "discordBot": {
-      "name": "Discord Bot",
-      "desc": "Pokročilý Discord bot napísaný v TypeScripte, ktorý využíva Discord.js na správu slash príkazov, ankiet, pravidiel, a ďalších interaktívnych funkcií. Podporuje dynamické načítavanie príkazov, odpovedanie na otázky o Discord.js, zobrazovanie počtu členov v serveri, a automatické rozosielanie pravidiel do vybraných kanálov. Vhodné ako ukážka práce s API Discordu, modulárnou štruktúrou a TypeScriptom."
+      "desc": "Modulárny starter pre Express.js projekty, kde si vieš zvoliť JS/TS, MongoDB, Cloudinary a ďalšie časti podľa potreby. Obsahuje JWT autentifikáciu, validáciu a čistú štruktúru.",
+      "link": "https://github.com/FoxerBN/back-ex"
     },
     "pythonServices": {
       "name": "python-services (Mikroslužby vo FastAPI)",
-      "desc": "Projekt modulárnych mikroslužieb v Pythone postavený na FastAPI. Obsahuje tri samostatné služby: správu používateľov, objednávok a skladových zásob. Každá služba je samostatne nasaditeľná (Docker), komunikuje cez HTTP a má vlastnú databázu. Je vhodný na učenie, prototypovanie alebo ako základ pre e-commerce/logistické systémy. Podporuje REST API, JWT autentifikáciu, logging a health-check endpointy."
+      "desc": "Projekt modulárnych mikroslužieb v Pythone postavený na FastAPI. Obsahuje tri samostatné služby: správu používateľov, objednávok a skladových zásob. Každá služba je samostatne nasaditeľná (Docker), komunikuje cez HTTP a má vlastnú databázu. Vhodný na učenie, prototypovanie alebo ako základ pre e-commerce/logistické systémy. Podporuje REST API, JWT autentifikáciu, logging a health-check endpointy.",
+      "link": "https://github.com/FoxerBN/python-services"
+    },
+    "school": {
+      "name": "School Management API",
+      "desc": "RESTful API na správu používateľov a študentov v školskom systéme. Postavené na Node.js, Express.js a PostgreSQL. Obsahuje JWT autentifikáciu, CRUD pre študentov a používateľov, validáciu vstupov cez Zod a vlastný frontend na testovanie API. Nasadené na Railway.",
+      "link": "https://github.com/FoxerBN/school-manager"
     },
     "myChatbot": {
-      "name": "My Chatbot",
-      "desc": "Vlastný chatbot nastavený tak, aby odpovedal na otázky o mne."
+      "name": "My Chatbot (AI Portfolio Assistant)",
+      "desc": "Inteligentný chatbot postavený na Flask a OpenAI API, ktorý odpovedá na otázky o mne a mojom portfóliu. Využíva SQLAlchemy databázu s automatickým čistením starých správ (expirácia po 1 hodine), obsahuje bezpečnostné filtre a je pripravený na produkčné nasadenie cez Gunicorn. Poskytuje REST API pre frontendovú integráciu s podporou CORS.",
+      "link": "https://github.com/FoxerBN/my-chatbot"
+    },
+    "chatApp": {
+      "name": "Live Support Chat",
+      "desc": "Aplikácia na živý chat s podporou v reálnom čase postavená na Reacte, Socket.io a Express. Používateľ môže vytvoriť alebo sa pripojiť do súkromnej 1-on-1 miestnosti. Pri vytvorení miestnosti je cez SendGrid automaticky odoslaná e-mailová pozvánka. Podporuje obojsmernú komunikáciu s okamžitými aktualizáciami a logikou pripravenosti miestnosti.",
+      "link": "https://github.com/FoxerBN/live-support-chat"
+    },
+    "onepas": {
+      "name": "Onepas (Správca hesiel)",
+      "desc": "Bezpečný správca hesiel vytvorený v React Native a Expo. Obsahuje registráciu, prihlásenie, odomykanie odtlačkom prsta a osobný dashboard. Používateľ si môže ukladať heslá k rôznym účtom s možnosťou výberu ikony (napr. Facebook) a na zobrazenie hesla musí zadať vlastné dešifrovacie heslo.",
+      "link": "https://github.com/FoxerBN/onepas"
+    },
+    "loginTemplate": {
+      "name": "Login Template (Next.js + NextAuth)",
+      "desc": "Opakovateľná šablóna na prihlásenie pre Next.js aplikácie s podporou sociálneho loginu cez Google, Discord, Facebook a GitHub cez NextAuth.js. Jednoducho rozšíriteľné—môžeš pridať ďalších poskytovateľov alebo vlastnú logiku podľa potreby. Údaje o používateľoch sa bezpečne ukladajú (predvolene Supabase) a štruktúra je pripravená na ďalšie úpravy (roly, vlastné polia, atď.).",
+      "link": "https://github.com/FoxerBN/nextauth-template"
+    },
+    "javaAuth": {
+      "name": "Java Auth (Spring Boot + React)",
+      "desc": "Jednoduchý boilerplate na prihlásenie cez Java Spring Boot a React. Podporuje login cez Google OAuth2 a generuje bezpečné JWT tokeny pre API. Kód je ľahko rozšíriteľný o ďalších poskytovateľov alebo vlastnú autentifikačnú logiku.",
+      "link": "https://github.com/FoxerBN/java-auth"
     },
     "resumeChecker": {
       "name": "Resume Checker",
-      "desc": "Automatizácia cez n8n a FastAPI, ktorá analyzuje životopisy cez email trigger, vyhodnocuje ich voči inzerátom pomocou OpenAI a posiela výsledky hodnotenia na Discord."
+      "desc": "Automatizácia cez n8n a FastAPI, ktorá analyzuje životopisy cez email trigger, vyhodnocuje ich voči inzerátom pomocou OpenAI a posiela výsledky hodnotenia na Discord.",
+      "link": "https://github.com/FoxerBN/resume-checker"
+    },
+    "discordBot": {
+      "name": "Discord Bot",
+      "desc": "Pokročilý Discord bot napísaný v TypeScripte, ktorý využíva Discord.js na správu slash príkazov, ankiet, pravidiel, a ďalších interaktívnych funkcií. Podporuje dynamické načítavanie príkazov, odpovedanie na otázky o Discord.js, zobrazovanie počtu členov v serveri, a automatické rozosielanie pravidiel do vybraných kanálov. Vhodné ako ukážka práce s API Discordu, modulárnou štruktúrou a TypeScriptom.",
+      "link": "https://github.com/FoxerBN/discord-bot"
+    },
+    "emailSender": {
+      "name": "EmailSender (Posielač denných citátov)",
+      "desc": "Spring Boot aplikácia na posielanie personalizovaných HTML e-mailov s inšpiratívnymi citátmi. Využíva SendGrid API na odosielanie a zenquotes.io na získavanie citátov. Podporuje plánované odosielanie (2x denne) a upraviteľnú šablónu e-mailu.",
+      "link": "https://github.com/FoxerBN/email-sender"
+    },
+    "webscraper": {
+      "name": "Web Scraper",
+      "desc": "Jednoduchý a prispôsobiteľný web scraper vytvorený v Pythone s HTML rozhraním. Umožňuje extrahovať konkrétne dáta z webov pomocou vlastných selektorov a filtrov. Ideálne na rýchly zber dát a prototypovanie.",
+      "link": "https://github.com/FoxerBN/web-scraper"
+    },
+    "fyltr": {
+      "name": "fyltr (Nástroj na konverziu obrázkov)",
+      "desc": "Python aplikácia na konverziu obrázkov (PNG, JPEG, JPG) do WebP s nastaviteľnou kvalitou. Umožňuje jednoducho pridať obrázky (drag & drop alebo výberom) a stiahnuť ich ako ZIP archív.",
+      "link": "https://github.com/FoxerBN/fyltr"
+    },
+    "ambientSim": {
+      "name": "Ambient Simulator (Simulácia inteligentnej domácnosti)",
+      "desc": "Simulátor inteligentnej domácnosti v Jave (Swing), kde môžeš ovládať virtuálne zariadenia (svetlá, reproduktory a ďalšie), nastavovať ich parametre a sledovať celkovú spotrebu elektriny v reálnom čase. Všetky údaje o spotrebe sa ukladajú do logov a exportujú na analýzu.",
+      "link": "https://github.com/FoxerBN/ambient-simulator"
     },
     "erpSystem": {
       "name": "ERP System",
-      "desc": "Systém na správu skladových zásob postavený na JavaFX so základnými CRUD operáciami."
+      "desc": "Systém na správu skladových zásob postavený na JavaFX so základnými CRUD operáciami.",
+      "link": "https://github.com/FoxerBN/erp-system"
     },
     "yokaiBackend": {
       "name": "Yokai Backend",
-      "desc": "Blog o japonských yokai (nadprirodzených bytostiach) s admin dashboardom na správu obsahu."
+      "desc": "Blog o japonských yokai (nadprirodzených bytostiach) s admin dashboardom na správu obsahu.",
+      "link": "https://github.com/FoxerBN/yokai-backend"
     },
     "memryxBackend": {
       "name": "Memryx Backend",
-      "desc": "Responzívna aplikácia na flashkarty, kde si používatelia môžu vytvárať balíčky, priečinky a flashkarty s plynulými animáciami."
+      "desc": "Responzívna aplikácia na flashkarty, kde si používatelia môžu vytvárať balíčky, priečinky a flashkarty s plynulými animáciami.",
+      "link": "https://github.com/FoxerBN/memryx-backend"
     },
     "graffpyBackend": {
       "name": "Graffpy Backend",
-      "desc": "Backend systém na zaznamenávanie a monitorovanie dát z Raspberry Pi v reálnom čase."
+      "desc": "Backend systém na zaznamenávanie a monitorovanie dát z Raspberry Pi v reálnom čase.",
+      "link": "https://github.com/FoxerBN/graffpy-backend"
     }
   }
 }
