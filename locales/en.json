@@ -36,9 +36,10 @@
   "experience": {
     "title": "## Real-World Project Experience",
     "crm": "CRM System - development and maintenance",
-    "chatbot": "AI Chatbot - OpenAI API integration",
-    "mcp": "MCP Server - tools for working with vector and SQL databases",
-    "fullstack": "Full-stack development for commercial projects"
+    "chatbot": "AI Chatbot with OpenAI API and vector database integration",
+    "mcp": "MCP Server - tools for working with vector databases (ChromaDB) and SQL databases",
+    "automation": "n8n workflow automation processes",
+    "selfHosting": "Self-hosting services on Raspberry Pi 5"
   },
   "projects": {
     "title": "## Projects",

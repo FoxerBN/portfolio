@@ -36,9 +36,10 @@
   "experience": {
     "title": "## Skúsenosti z reálnych projektov",
     "crm": "CRM systém - vývoj a údržba",
-    "chatbot": "AI Chatbot - integrácia s OpenAI API",
-    "mcp": "MCP Server - nástroje na prácu s vektorovými a SQL databázami",
-    "fullstack": "Full-stack vývoj pre komerčné projekty"
+    "chatbot": "AI Chatbot s integráciou OpenAI API a vektorových databáz",
+    "mcp": "MCP Server - nástroje na prácu s vektorovými databázami (ChromaDB) a SQL databázami",
+    "automation": "n8n automatizácia workflow procesov",
+    "selfHosting": "Self-hosting služieb na Raspberry Pi 5"
   },
   "projects": {
     "title": "## Projekty",
