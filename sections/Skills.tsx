@@ -14,6 +14,10 @@ export default function Skills() {
         <li>{">"} {t('skills.languages')}</li>
         <li>{">"} {t('skills.frameworks')}</li>
         <li>{">"} {t('skills.testing')}</li>
+        <li>{">"} {t('skills.devops')}</li>
+        <li>{">"} {t('skills.security')}</li>
+        <li>{">"} {t('skills.realtime')}</li>
+        <li>{">"} {t('skills.ai')}</li>
       </ul>
     </>
   );

@@ -13,6 +13,10 @@ export default function Tools() {
         <li>{">"} {t('tools.apiTesting')}</li>
         <li>{">"} {t('tools.ide')}</li>
         <li>{">"} {t('tools.databases')}</li>
+        <li>{">"} {t('tools.vectorDatabases')}</li>
+        <li>{">"} {t('tools.noSqlDatabases')}</li>
+        <li>{">"} {t('tools.os')}</li>
+        <li>{">"} {t('tools.selfHosting')}</li>
       </ul>
     </>
   );
