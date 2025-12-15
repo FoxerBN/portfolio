@@ -9,7 +9,7 @@ export default function Footer() {
       © {new Date().getFullYear()} {t('footer')}
       <span>
         
-        <a href="/Richard-Tekula.pdf" download target="_blank" rel="noopener noreferrer">{"->Download CV-<"}
+        <a href="/Richard_Tekula_CV.pdf" download target="_blank" rel="noopener noreferrer">{"->Download CV-<"}
         </a>
       </span>
     </footer>
